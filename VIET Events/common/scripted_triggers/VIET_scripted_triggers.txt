@@ -353,3 +353,55 @@ VIET_is_sinosphere_religion_trigger = {
 		religion = religion:shintoism_religion	
 	}		
 }
+
+# Cultures that commonly use fish sauce
+VIET_fish_sauce_culture = {
+	OR = {
+		culture_has_southeast_asian_heritage_pillar_trigger = yes
+		culture = {
+			OR = {
+				has_cultural_pillar = heritage_iberian
+				has_cultural_pillar = heritage_latin
+				has_cultural_pillar = heritage_byzantine
+				has_cultural_pillar = heritage_ancient_greek
+				has_cultural_pillar = heritage_arabic
+				has_cultural_pillar = heritage_syriac
+				has_cultural_pillar = heritage_chinese
+				has_cultural_pillar = heritage_japonic
+				has_cultural_pillar = heritage_korean
+				has_cultural_pillar = heritage_buyeo
+			}
+		}
+	}
+}
+
+VIET_is_byzantine_or_roman_trigger = {
+	OR = {
+		culture = culture:roman
+		culture = { has_cultural_pillar = heritage_byzantine }
+		culture = { has_cultural_pillar = heritage_ancient_greek }
+		top_liege ?= { has_title = title:e_byzantium }
+		top_liege ?= { has_title = title:h_roman_empire }
+		religion = religion:hellenism_religion
+	}
+}
+
+VIET_anatolian_or_near_east_turkish = {
+	culture = { has_cultural_pillar = heritage_turkic }
+	# Locations with those kinds of cultures
+	capital_province ?= {
+		OR = {
+			geographical_region = world_europe
+			geographical_region = world_asia_minor
+			geographical_region = world_africa_north
+			geographical_region = world_middle_east
+		}
+	}
+}
+
+
+
+
+
+
+

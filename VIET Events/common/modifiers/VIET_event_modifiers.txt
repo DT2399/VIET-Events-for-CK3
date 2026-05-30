@@ -4244,6 +4244,71 @@ VIET_intellectual_obsessions = {
 	monthly_lifestyle_xp_gain_mult = 0.1
 }
 
+VIET_reading_oneirokritika = {
+	icon = learning_positive
+	monthly_lifestyle_xp_gain_mult = 0.1
+}
+
+VIET_servants_interpreting_dreams = {
+	icon = social_positive
+	owned_personal_scheme_success_chance_add = 5
+	enemy_hostile_scheme_success_chance_add = -5
+}
+
+VIET_double_headed_dragon_protection = {
+	icon = beast_positive
+	monthly_prestige = 0.2
+	legitimacy_gain_mult = 0.1	
+}
+
+VIET_double_headed_eagle_protection = {
+	icon = byzantine_eagle_positive
+	negate_health_penalty_add = 0.3
+	character_travel_safety = 5
+}
+
+VIET_sirens_and_harpies_protection = {
+	icon = magic_positive
+	enemy_scheme_secrecy_add = -5
+	stress_loss_mult = 0.1
+}
+
+VIET_peacocks_of_paradise_protection = {
+	icon = bird_positive
+	monthly_piety = 0.2
+	attraction_opinion = 10
+}
+
+VIET_turkic_patron_of_the_occult = {
+	icon = magic_mixed
+	intrigue = 1
+	learning = 1
+	legitimacy_gain_mult = 0.1
+	courtly_opinion = 10
+	zealot_opinion = -10
+	clergy_opinion = -10
+}
+
+VIET_avoiding_stinky_foods = {
+	icon = food_positive
+	character_travel_safety = 2
+	enemy_hostile_scheme_success_chance_add = -5
+}
+
+VIET_enjoying_garos = {
+	icon = food_positive
+	diplomacy = 1
+	different_culture_opinion = 5
+	opinion_of_different_culture = 5
+}
+
+VIET_learning_about_surgeries = {
+	icon = treatment_positive
+	monthly_learning_lifestyle_xp_gain_mult = 0.05
+	negate_health_penalty_add = 0.2
+}
+
+
 
 
 

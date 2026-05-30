@@ -385,15 +385,7 @@ VIETold.0007 = {
 				target = flag:flag_restored_roman_empire
 			}
 		}
-		OR = {
-			has_title = title:e_byzantium			
-			culture = { has_cultural_pillar = heritage_byzantine }
-			top_liege = {
-				has_title = title:e_byzantium
-			}
-			has_culture = culture:roman
-			faith.religion = faith:hellenic_pagan.religion
-		}
+		VIET_is_byzantine_or_roman_trigger = yes
 	}
 	
 	weight_multiplier = {

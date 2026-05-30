@@ -1220,3 +1220,12 @@ VIET_generic_wise_local_template = {
 		VIET_ek_character_setup_effect = yes
 	}
 }
+
+VIET_commoner_at_location_character = {
+	age = { 18 50 }
+	random_traits = yes
+	culture = root.location.culture
+	faith = root.location.faith
+	dynasty = none
+	gender_female_chance = 50
+}

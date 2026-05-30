@@ -34,6 +34,7 @@
 # 7059-7060		Strawberries
 # 7061-7062		Horses
 # 7063		 	Earth Day
+# 7064-7065	 	Byzantine and Turkish
 # 
 ############################################################################################################################
 
@@ -7167,6 +7168,326 @@ VIETmisc.7063 = {
 			arbitrary = miniscule_stress_impact_gain
 		}
 
+	}
+
+}
+
+
+##################################################################
+# 7064-7065 Byzantine and Turkish
+##################################################################
+
+# Traveler can't handle the smell of garos/garum (fermented fish sauce)
+VIETmisc.7064 = {
+	type = character_event
+	title = VIETmisc.7064.t
+	desc = VIETmisc.7064.desc
+	theme = travel_diplomacy
+	override_background = { reference = VIET_background_small_town }
+
+	left_portrait = {
+		character = scope:traveler
+		animation = disgust
+	}	
+	
+	right_portrait = {
+		character = scope:peddler
+		animation = laugh
+		hide_info = yes
+	}	
+
+	trigger = {
+		has_game_rule = VIET_normal_universe_events
+		is_location_valid_for_travel_event_on_land = yes
+		is_vegetarian_trigger = no
+		current_travel_plan = {
+			any_entourage_character = {	
+				is_available_travelling = yes
+				VIET_fish_sauce_culture = no
+				is_vegetarian_trigger = no
+			}
+		}
+		# Should be a region with a relevant culture
+		location.culture = {
+			OR = {			
+				has_cultural_pillar = heritage_byzantine
+				has_cultural_pillar = heritage_ancient_greek
+			}
+		}
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 0.2
+			has_trait = gregarious
+		}
+		modifier = {
+			add = -0.2
+			has_trait = shy
+		}
+		modifier = {
+			add = 0.2
+			has_trait = gluttonous
+		}
+		modifier = {
+			add = -0.2
+			has_trait = temperate
+		}
+		modifier = {
+			add = 0.2
+			has_trait = trusting
+		}
+		modifier = {
+			add = -0.2
+			has_trait = paranoid
+		}
+	}
+
+	immediate = {
+		location.culture = {
+			save_scope_as = county_culture
+		}
+		current_travel_plan = {
+			every_entourage_character = {	
+				limit = {
+					is_available_travelling = yes
+					VIET_fish_sauce_culture = no
+					is_vegetarian_trigger = no
+				}
+				add_to_list = entourage_character_candidates
+			}
+		}
+		random_in_list = {
+			list = entourage_character_candidates
+			weight = {
+				base = 40
+				modifier = {
+					has_trait = paranoid
+					add = 10
+				}
+				modifier = {
+					has_trait = arrogant
+					add = 10
+				}
+				modifier = {
+					has_trait = gluttonous
+					add = -20
+				}
+				modifier = {
+					has_trait = content
+					add = -10
+				}
+			}
+			save_scope_as = traveler
+		}
+		scope:traveler = {
+			add_character_modifier = {
+				modifier = VIET_avoiding_stinky_foods
+				years = 3
+			}			
+		}
+
+		create_character = {
+			template = VIET_commoner_at_location_character
+			dynasty = none
+			location = root.location
+			save_scope_as = peddler
+		}
+	}
+	
+	option = { # Can't stand it
+		name = VIETmisc.7064.a
+		add_character_modifier = {
+			modifier = VIET_avoiding_stinky_foods
+			years = 3
+		}
+		scope:traveler = {
+			add_opinion = {
+				target = root
+				modifier = VIET_showed_sympathy
+			}		
+		}
+		stress_impact = {
+			gluttonous = minor_stress_impact_gain
+			content = miniscule_stress_impact_gain
+			humble = miniscule_stress_impact_gain
+			eccentric = miniscule_stress_impact_gain
+		}
+	}
+	
+	option = { # No problem!
+		name = VIETmisc.7064.b
+		add_character_modifier = {
+			modifier = VIET_enjoying_garos
+			years = 3
+		}
+		stress_impact = {
+			craven = minor_stress_impact_gain
+			arrogant = miniscule_stress_impact_gain
+		}
+	}
+
+	after = {
+		scope:peddler ?= { silent_disappearance_effect = yes }		
+	}
+
+}
+
+
+# Baklava peddler
+VIETmisc.7065 = {
+	type = character_event
+	title = VIETmisc.7065.t
+	desc = VIETmisc.7065.desc
+	theme = travel_diplomacy
+	override_background = { reference = VIET_background_small_town }
+
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}	
+	
+	right_portrait = {
+		character = scope:peddler
+		animation = storyteller
+		hide_info = yes
+	}	
+
+	trigger = {
+		has_game_rule = VIET_normal_universe_events
+		is_location_valid_for_travel_event_on_land = yes
+		# Should be a region with a relevant culture
+		location = {
+			VIET_is_baklava_culture_trigger = yes
+		}
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 0.2
+			has_trait = gregarious
+		}
+		modifier = {
+			add = -0.2
+			has_trait = shy
+		}
+		modifier = {
+			add = 0.2
+			has_trait = gluttonous
+		}
+		modifier = {
+			add = -0.2
+			has_trait = temperate
+		}
+		modifier = {
+			add = 0.2
+			has_trait = trusting
+		}
+		modifier = {
+			add = -0.2
+			has_trait = paranoid
+		}
+	}
+
+	immediate = {
+		create_character = {
+			template = VIET_commoner_at_location_character
+			dynasty = none
+			location = root.location 
+			save_scope_as = peddler
+		}
+	}
+	
+	option = { # Ok
+		name = VIETmisc.7065.a
+		trigger = {
+			OR = {
+				gold >= 25
+				is_ai = no
+			}
+		}
+		remove_short_term_gold = 25
+		add_character_modifier = {
+			modifier = VIET_bought_baklava_normal
+			days = 730
+		}
+		stress_impact = {
+			base = minor_stress_impact_loss
+			gluttonous = minor_stress_impact_loss
+		}
+	}
+	
+	option = { # No problem!
+		name = VIETmisc.7065.b
+		trigger = {
+			OR = {
+				gold >= 25
+				is_ai = no
+			}
+		}
+		remove_short_term_gold = 25
+		duel = {
+			skill = diplomacy
+			target = scope:peddler
+			50 = { # Failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1.1
+					min = -49
+				}
+				desc = VIETmisc.7065.b.toast_neutral
+				send_interface_toast = {
+					type = event_toast_effect_neutral
+					left_icon = root
+					title = VIETmisc.7065.b.toast_neutral
+					remove_short_term_gold = 25
+					add_character_modifier = {
+						modifier = VIET_bought_baklava_normal
+						days = 730
+					}
+					stress_impact = {
+						base = minor_stress_impact_loss
+						gluttonous = minor_stress_impact_loss
+					}
+				}
+			}
+			50 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1.1
+					min = -49
+				}
+				desc = VIETmisc.7065.b.toast_good
+				send_interface_toast = {
+					type = event_toast_effect_good
+					left_icon = root
+					title = VIETmisc.7065.b.toast_good
+					remove_short_term_gold = 10
+					add_character_modifier = {
+						modifier = VIET_bought_baklava_normal
+						days = 730
+					}
+					stress_impact = {
+						base = minor_stress_impact_loss
+						gluttonous = minor_stress_impact_loss
+						greedy = minor_stress_impact_loss
+					}
+				}
+			}
+		}
+	}
+	
+	option = { # No
+		name = VIETmisc.7065.c
+		stress_impact = {
+			gluttonous = minor_stress_impact_gain
+		}
+	}
+
+	after = {
+		scope:peddler ?= { silent_disappearance_effect = yes }		
 	}
 
 }

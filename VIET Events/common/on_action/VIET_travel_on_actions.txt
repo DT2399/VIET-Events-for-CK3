@@ -107,6 +107,10 @@ VIET_travel_events_common = {
 		# Earth Day
 		100 = VIETmisc.7063 	# Molehills up ahead
 
+		# Byzantine and Turkish
+		100 = VIETmisc.7064 	# Traveler can't handle the smell of garos/garum (fermented fish sauce)
+		100 = VIETmisc.7065 	# Baklava peddler
+
 		###################################
 		# TRANSFERRED - events created before Travel was a thing
 		###################################
@@ -117,7 +121,7 @@ VIET_travel_events_common = {
 		100 = VIETmisc.0213		# Say hello to a fennec fox
 		100 = VIETmisc.0216		# Encounter black winged stilts by some ponds
 
-		# 31
+		# 33
 	}
 }
 

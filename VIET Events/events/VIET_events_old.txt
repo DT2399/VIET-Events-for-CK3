@@ -11855,6 +11855,10 @@ VIETold.2165 = {
 		character = root
 		animation = personality_rational
 	}
+	
+	trigger = {
+		NOT = { has_character_modifier = VIET_surgery_lesson }
+	}
 
 	weight_multiplier = {
 		base = 1

@@ -527,6 +527,10 @@ VIET_events_yearly_pulse = {
 		100 = VIETmisc.0411 	# Are black or white robes more appropriate for Christian monks?
 		100 = VIETmisc.0413		# Kid asks why white and red are opposites
 		100 = VIETmisc.0414		# Jasmine tea
+
+		# Byzantine and Turkish
+		100 = VIETmisc.0417		# Consulting oneirokritika (dream handbooks) about dreams
+		100 = VIETmisc.0419		# Adding Turkic/Seljuk style decorations to residence?
 	}
 }
 
@@ -973,6 +977,9 @@ VIET_events_tri_yearly_pulse = {
 		# Earth Day
 		100 = VIETmisc.0416		# Scholarly courtier blabbers about the circumference of the earth
 
+		# Byzantine and Turkish
+		100 = VIETmisc.0420		# Courtier suggests patronizing the occult, like what Turkic rulers such as the Seljuks did, to legitimize their rule
+
 	}
 }
 
@@ -1271,6 +1278,9 @@ VIET_events_five_yearly_pulse = {
 		
 		# Earth Day
 		100 = VIETmisc.0415		# Peasant says praying to fertility god/saint helped their crops grow on barren land
+
+		# Byzantine and Turkish
+		100 = VIETmisc.0418		# Physician talks about the writings of Paul of Aegina, especially in regards to surgery
 
 	}
 }

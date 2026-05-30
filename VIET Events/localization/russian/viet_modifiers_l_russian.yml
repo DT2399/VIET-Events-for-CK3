@@ -1702,6 +1702,25 @@ VIET_listened_to_saint_francis:0 "Прослушал проповедь с жи�
  VIET_regulated_human_waste:0 "Regulated Human Waste"
  VIET_regulated_human_waste_desc:0 "Due to an increasing accumulation of filth in local settlements, authorites have no choice but to enforce stricter rules with the disposal of human waste, in order to maintain public health and the beauty of the surrounding lands."
  VIET_successful_foresters:0 "Successful Forestry Practices"
- # Version 1.18.4 Start Here - Note to Translators: please leave this comment here and do not remove it even in your versions of the loc
+ # Version 1.19.1 Start Here - Note to Translators: please leave this comment here and do not remove it even in your versions of the loc
+ VIET_reading_oneirokritika:0 "Dream Interpretation through Oneirokritika"
+ VIET_reading_oneirokritika_desc:0 "This character regularly consults with [Glossary( 'oneirokritika', 'ONEIROKRITIKA_GLOSS' )] to ascertain the meaning of their dreams."
+ VIET_servants_interpreting_dreams:0 "Dream Interpretation through Elderly Servants"
+ VIET_servants_interpreting_dreams_desc:0 "This character regularly consults with their elderly, wise servants to ascertain the meaning of their dreams."
+ VIET_double_headed_dragon_protection:0 "Protected by Double-Headed Dragons"
+ VIET_double_headed_dragon_protection_desc:0 "Small carvings of majestic double-headed dragons with knotted bodies adorn a part of this character's residence. They are believed to protect their household from harm."
+ VIET_double_headed_eagle_protection:0 "Protected by Double-Headed Eagles"
+ VIET_double_headed_eagle_protection_desc:0 "Small carvings of magical, healing double-headed eagles adorn a part of this character's residence. They are believed to protect their household from harm."
+ VIET_sirens_and_harpies_protection:0 "Protected by Sirens and Harpies"
+ VIET_sirens_and_harpies_protection_desc:0 "Small carvings of seductive but fearsome sirens and harpies adorn a part of this character's residence. They are believed to protect their household from harm."
+ VIET_peacocks_of_paradise_protection:0 "Protected by the Peacocks of Paradise"
+ VIET_peacocks_of_paradise_protection_desc:0 "Small carvings of the beautiful peacocks of paradise adorn a part of this character's residence. They are believed to protect their household from harm."
+ VIET_turkic_patron_of_the_occult:0 "$heritage_turkic_name$ Patron of the Occult"
+ VIET_turkic_patron_of_the_occult_desc:0 "This Turkic character has patronized learned practicioners of occult arts such as geomancy, astrology, and astronomy, partly to legitimize their leadership."
+ VIET_avoiding_stinky_foods:0 "Avoiding Stinky Foods"
+ VIET_enjoying_garos:0 "Enjoying Garos"
+ VIET_enjoying_garos_desc:0 "This character enjoys eating food with [Glossary( 'garos', 'GAROS_GLOSS' )], even if the smell can take some getting used to."
+ VIET_learning_about_surgeries:0 "Learning about Surgeries"
+ # Version 1.19.2 Start Here - Note to Translators: please leave this comment here and do not remove it even in your versions of the loc
  xxxxxxxxxx:0 "xxx"
 

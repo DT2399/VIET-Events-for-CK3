@@ -127,7 +127,7 @@
  activity_VIET_ancient_stone_monument_examination_selection_tooltip: "Go to a local ancient stone monument.\n\nAnticipated Rewards:$activity_VIET_ancient_stone_monument_examination_rewards_tooltip$"
  activity_VIET_ancient_stone_monument_examination_host_desc: "$activity_VIET_ancient_stone_monument_examination_rewards_tooltip$\n\n$VIET_decision_examine_ancient_stone_monument_context_tooltip$"
  activity_VIET_ancient_stone_monument_examination_guest_desc: "$activity_VIET_ancient_stone_monument_examination_host_desc$"
- activity_VIET_ancient_stone_monument_examination_province_desc: "A notable ancient stone monment lies here."
+ activity_VIET_ancient_stone_monument_examination_province_desc: "A notable ancient stone monument lies here."
  activity_VIET_ancient_stone_monument_examination_destination_selection: "$activity_VIET_ancient_stone_monument_examination_province_desc$"
  activity_VIET_ancient_stone_monument_examination_guest_help_text: "$activity_VIET_ancient_stone_monument_examination$"
  activity_VIET_ancient_stone_monument_examination_predicted_cost: "The cost of examining the ancient stone monument is primarily based on your [income|E]."
