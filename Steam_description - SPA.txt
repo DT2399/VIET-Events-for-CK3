@@ -1,22 +1,21 @@
-[img]https://i.imgur.com/uXp8zbo.jpg[/img]
+[img]https://i.imgur.com/99bfZnH.jpg[/img]
 
-[h1]Versión actual: 1.18.0 "Pu Songling" 
-(Lanzamiento: 28/10/25, Compatible con versión vanilla 1.18.X)[/h1]
+[h1]Versión actual: 1.19.0 "Gaia" (Lanzada el 21/4/26, compatible con el parche 1.19.X)[/h1]
 
-[url=https://discord.gg/9KuyXv2uZA]Servidor de Discord de mis Mods[/url]
-[B]Echa un Vistazo a [url=https://forum.paradoxplaza.com/forum/threads/mod-viet-events-for-ck3-a-flavor-and-immersion-event-mod.1422081/]Tema del Foro[/url] Para Más Información[/B]
-[B]Descarga/Instalación manual [url=https://github.com/cybrxkhan/VIET-Events-for-CK3/releases]en Github[/url][/B]
-[B]Descarga desde Paradox [url=https://mods.paradoxplaza.com/mods/12992/Any] disponible aquí[/url][/B]
-[B][url=https://imgur.com/a/TIePH1f]¡Mira algunas capturas de pantalla![/url][/B]
+[h1][B][url=https://discord.gg/9KuyXv2uZA]Servidor de Discord para mis mods[/url]
+[url=https://cybrxkhansmods.godaddysites.com/]Sitio web oficial de mis mods[/url][/B][/h1]
+[B][url=https://forum.paradoxplaza.com/forum/threads/mod-viet-events-for-ck3-a-flavor-and-immersion-event-mod.1422081/]Hilo del foro de Paradox[/url][/B]
+[B]Descarga/Instalación manual disponible [url=https://github.com/cybrxkhan/VIET-Events-for-CK3/releases]en Github[/url][/B]
+[B]Descarga de Paradox [url=https://mods.paradoxplaza.com/mods/12992/Any]Disponible aquí[/url][/B]
+[B][url=https://imgur.com/a/TIePH1f]Ver todas las capturas de vista previa aquí[/url][/B]
 
-Very Immersive Events and Tales (VIET), la secuela de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1601402546]VIET Events Reborn para CK2[/url], es un mod que añade una vasta colección de eventos sobre la vida diaria para darle chispa a tu partida. Estos eventos añaden inmersión y diversidad de experiencias con nuevos eventos y cadenas, y cubren desde las más mundanas minuncias como pequeñas charlas con cortesanos y comer comida local hasta historias épicas sobre amor, filosofia y la condición humana.
+Very Immersive Events and Tales (VIET), la secuela de [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1601402546]VIET Events Reborn para CK2[/url], es un mod de ambientación que añade una vasta colección de eventos sobre la vida cotidiana para darle más sabor a tu partida. Aportan inmersión y una diversidad de experiencias entre guerras y las cadenas de eventos vanilla, y abarcan minucias mundanas, desde charlas triviales con cortesanos y degustar la cocina local hasta relatos épicos sobre el amor, la filosofía y la condición humana. ¡Algunos eventos incluso desbloquean nuevas decisiones, interacciones, actividades y mucho más para que explores!
 
-Además de nuevos eventos, intento adaptar muchos de los eventos del viejo VIET de CK2 siempre que sea posible. Espero que estos ocho años (con algún parón) creando mods para CK2 me ayuden a dar una experiencia divertida a cualquier jugador interesado en mis mods.
+Espero que las lecciones aprendidas durante mis años de modding en CK2 me ayuden a ofrecer una experiencia divertida para aquellos que juegan con mis mods, y espero añadir más y más eventos en cada actualización.
 
+[B][U]VIET podría funcionar en partidas existentes, pero se recomienda comenzar una nueva para mayor seguridad.[/U][/B] (Si añades VIET a una partida antigua, recuerda hacer una copia de seguridad de tu partida por si acaso.)
 
-[B]¡[U]VIET [I]FUNCIONARÁ[/I] CON GUARDADOS EXISTENTES![/U][/B] (Pero recuerda hacer una copia de seguridad por si las moscas.)
-
-Siéntete libre de usar mi trabajo con tus mods - todo lo que pido es reconocimiento y (si es posible) un aviso. ¡Y si te gusta el mod, dale a favoritos y pulgar arriba!
+Siéntete libre de usar mi trabajo en tus mods; solo pido que se me dé crédito y (si es posible) que me avises. ¡Y si te gustó el mod, no dudes en añadirlo a favoritos y valorarlo positivamente!
 
 [img]http://i.imgur.com/FaFtOmm.gif[/img]
 
@@ -26,62 +25,77 @@ Siéntete libre de usar mi trabajo con tus mods - todo lo que pido es reconocimi
 [img]http://i.imgur.com/EyXurbK.jpg[/img]
 
 [LIST]
-[*]¡Más de [B][U]1227[/U] nuevos eventos[/B] para experimentar!
-[*]Explora nuevas decisiones, artefactos, interacciones y cadenas de eventos
-[*]Regla de juego para desactivar los eventos estúpidos para aquellos que no les guste, con tres niveles para escoger entre: Balanceado (Predeterminado), Serio (Restringido), y Todos los eventos (Todo)
-[*][B]Compatible con casi cualquier cosa[/B] ya que no modifico archivos del vanilla - incluso con mods de conversión total puedes desactivar los eventos que hagan referencias a cosas o lugares específicos del mundo medieval que no tendrían sentido en otros periodos o universos (como mods fantásticos o de ciencia ficción)
-[*]Aprende historia con las [B]descripciones de Contexto Histórico[/B] que proporcionan información sobre la inspiración detrás de algunos eventos - a veces, ¡la realidad supera la ficción! (Estos se pueden desactivar con una regla de juego para aquellos que creen que no ayuda a la inmersión.)
+[*]¡Más de [B][U]1269 eventos de ambientación nuevos[/U][/B] para experimentar!
+[*]Explora nuevas decisiones, artefactos, interacciones entre personajes, actividades ¡y más!
+[*]Regla de juego para deshabilitar eventos más absurdos para quienes no los disfruten, con tres niveles para elegir: Balanceado (por defecto), Serio (restringido) y Todos los eventos (completo).
+[*][B]Compatible con casi cualquier cosa[/B] ya que no modifica ningún archivo vanilla; incluso con mods totales, puedes desactivar mediante la regla de juego los eventos que hagan referencia a cosas específicas de nuestro mundo medieval que no tendrían sentido en otras épocas o universos (como mods de conversión de fantasía/ciencia ficción).
+[*]Aprende historia con las [B]Descripciones emergentes de contexto histórico[/B] que proporcionan información sobre lo que inspiró algunos eventos: ¡a veces la realidad es más extraña que la ficción! (Se pueden desactivar mediante regla de juego para quienes las encuentren rompedoras de inmersión).
 [/LIST]
 
 [h1]TRADUCCIONES DISPONIBLES[/h1]
-¡Ahora tenemos cubiertos los idiomas oficiales! Por favor, tened en cuenta que debido a mi horario irregular a la hora de actualizar los mods, los compañeros trabajando en las traducciones pueden o no estar al tanto de las últimas versiones de VIET, dado que están cediendo su tiempo amablemente para traducirlo desinteresadamente.. Tened en cuenta que todo el texto que no sea Inglés tiene un marcador de posición en la versión base de VIET.
+Debido a que personas amablemente dedican su propio tiempo y esfuerzo en trabajar en estas traducciones, [B]ten en cuenta que las personas que trabajan en estas traducciones pueden o no estar actualizadas con la última versión de VIET[/B]. Ten en cuenta que todos los idiomas no ingleses disponibles en el juego vanilla tienen una localización en inglés marcada como provisional en la versión base de VIET, por lo que se pueden ejecutar sin problemas; simplemente mostrarán el texto sin traducir en inglés (en lugar de caracteres extraños).
 [LIST]
-[*][B]Español[/B] - Sourenics & Ferchu están proporcionando la traducción, integrada en VIET.
-[*]Chino - [url=https://paratranz.cn/projects/1580] integrada en VIET.
-[*]Francés - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2234027514]Disponible como sub-mod aquí[/url], gracias a Mouchi
-[*]Alemán - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2447914570]Disponible como sub-mod aquí[/url], gracias a Ilusive
-[*]Coreano - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2227982565]Disponible como sub-mod aquí[/url], gracias a Ohboksu
-[*]Ruso - AmoreLibre está proporcionando la traducción, integrada en VIET.
+[*]Chino (中文) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2997587648]Submod por un equipo liderado por 9Milk(牛奶大魔王)[/url]
+[*]Francés (Français) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2234027514]Submod por Mouchi[/url]
+[*]Alemán (Deutsch) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3355568022]Submod por Dani y otros[/url] 
+[*]Japonés (日本語) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2897785688]Submod por takuro[/url]
+[*]Coreano (한국어) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2227982565]Submod por Ohboksu[/url], gracias a Ohboksu
+[*]Portugués (Português) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3227934458]Submod por Alin[/url]
+[*]Ruso (русский) - AmoreLibre ha proporcionado traducciones integradas en la base de VIET. Se pueden encontrar más traducciones en [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2959639167]este submod por Негр в панамке[/url]
+[*]Español (Español) - Sourenics ,Danny y Ferchu han proporcionado traducciones integradas en la base de VIET.
+[*]Turco (Türkçe) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3601567013]Submod por Kubrick[/url]
+[*]Ucraniano (українська) - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3445880345]Submod por Karley[/url]
 [/LIST]
-
 
 [img]https://i.imgur.com/9twioNH.jpg[/img]
 
-Por favor, echa un vistazo a [url=https://steamcommunity.com/workshop/filedetails/discussion/2227658180/2943622078759317376/]este hilo[/url] para más información.
-
+Por favor, consulta las [url=https://cybrxkhansmods.godaddysites.com/faq]Preguntas Frecuentes en el sitio web de mis mods[/url] para más información.
 
 [img]http://i.imgur.com/RQ5QZTF.jpg[/img]
 
-[h1]Versión 1.18.0 "Pu Songling"[/h1]
+[h1]Versión 1.19.0 "Gaia"[/h1]
 
-[I]"Aquí, en el mundo civilizado, ocurren sucesos mucho más extraños que en el País del Cabello Cortado; ante nuestros propios ojos se desarrollan historias más insólitas que en la Nación de las Cabezas Voladoras."  
-– Pú Sōnglíng, escritor chino (1640–1715), en el prefacio de sus *Relatos extraños de un estudio chino*[/I]  
+[I]“La Tierra es la cuna de la humanidad, pero no se puede vivir en la cuna para siempre.”
+– Konstantin Tsiolkovsky (1857 - 1935), científico espacial ruso y pionero de la astronáutica[/I]
 
-Nuevos sucesos añadidos en esta versión: [B]7[/B]
+Nuevos eventos añadidos en esta versión: [B]5[/B]
 
+Debido a que el registro de cambios es demasiado grande para enumerarlo aquí, consulta el registro de cambios completo aquí: https://steamcommunity.com/sharedfiles/filedetails/changelog/2227658180
 
+[LIST]
+[*]Añadidos 5 eventos inspirados en el Día de la Tierra y el medio ambiente
+[*]Añadidos algunos fondos de eventos nuevos
+[*]Deshabilitados algunos eventos para nómadas donde no tendrían sentido
+[*]Corregida la localización faltante para los modificadores de evento de "quemar a los bandidos" y "estudiantes contra lugareños"
+[*]Correcciones varias de errores
+[/LIST]
+
+*Adaptado de VIET para CK2
 
 
 [img]https://i.imgur.com/6L11s2n.jpg[/img]
 
 [LIST]
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2273832430][B]Regional Immersion and Cultural Enrichment (RICE)[/B][/url] - un mod cultural para las regiones más desconocidas diseñado tras los packs de "sabores" de PI
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217770052]In Taberna (Edición CK2)[/url] - la clásica canción de CK2 regresa ahora para CK3
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2218667128]Recruit Courtiers[/url] - decisión para invocar cortesanos en tu corte por un módico precio, similar a CK2
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2219643991]Reduced Injuries and Deaths from Battles[/url] - si estás cansado de que la gente caiga como moscas en las guerras
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2273832430]Regional Immersion and Cultural Enrichment (RICE)[/url] - un mod de ambientación cultural para regiones menos conocidas y oscuras, modelado según los paquetes de ambientación de PI
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2217770052]In Taberna (Edición CK2)[/url] - la canción clásica de CK2 regresa a CK3
+[*]Más variedad de vestimenta de África Oriental: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3577493277]Versión Vanilla[/url] | [url=https://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=3577493412]Versión EPE[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2218667128]Reclutar Cortesanos[/url] - decisión simple para generar cortesanos o cortesanas en tu corte por un pequeño precio, similar a CK2
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2747792660]Renombrar Egaliatarian Ethos a Cosmopolitan[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2629092890]Renombrar Tribal Era a Late Antiquity[/url]
 [/LIST]
+
 
 
 [img]http://i.imgur.com/GlNXL7m.jpg[/img]
 
-Un abrazo enorme a los equipos de WTWSMS (especialmente ILikeTrians and Loup99) y Lux Invicta (incluido tsf4), así como a M@ni@c, creador de Hide Your Jewelry, por mantener y mejorar VIET para CK2 con los años, lo que me proporcionó una base sólida para un relanzamiento mejorado de los Eventos de VIET.
+Gracias a todos aquellos con quienes he colaborado, de quienes he tomado prestado algo, y que me han brindado ánimo y retroalimentación a lo largo de los años. Un agradecimiento especial en particular a los equipos detrás de WTWSMS (especialmente a IlikeTrains y Loup99) y Lux Invicta (incluyendo a tsf4), así como a M@ni@c, creador de Hide Your Jewelry, por mantener y mejorar VIET para CK2 durante todos estos años, lo que me proporcionó una base sólida para el reinicio mejorado de VIET Events. Un enorme agradecimiento también a las almas bondadosas que se toman el tiempo de traducir el mod y soportan mi errático calendario de actualizaciones.
 
-Reconocimiento también a OrdepNM, quien fue mi cómplice en los inicios de VIET para CK2, y que estuvo ahí para ayudar a mentenerlo mientras yo sufría serios problemas médicos.
+Algunas menciones especiales adicionales:
 
-Gracias también a Sleight of Hand por presionarme a entrar en el mundo de las modificaciones para CK2 y por su ayuda todos estos años, que es por lo que aún estoy aquí.
-
-Gracias a tora75 por contribuir a la traducción única de muchos eventos nórdicos.
-
-Muchísimas gracias también a toda esa amable gente que está dedicando su tiempo a traducir el mod - puedes ver quiénes son en la lista de la sección "Características" en la página de la descripción del mod en Steam.
-
-Por último, gracias a toda la gente con la que he trabajdo, y he aprendido a lo largo de estos años, y me proporcionaron valor y consejos.
+[LIST]
+[*]Bonseny por los increíbles logotipos de VIET y RICE
+[*]OrdepNM, mi compañero de crimen en los primeros días de VIET para CK2 y que dio un paso al frente para ayudar a mantenerlo mientras yo tenía problemas médicos graves hace años.
+[*]Sleight of Hand por impulsarme a adentrarme en la escena del modding de CK2 y por otra ayuda a lo largo de los años, razón por la cual todavía estoy aquí de alguna manera.
+[*]tora75 por contribuir con las localizaciones únicas nórdicas para varios eventos.
+[*]Stik, Vertimnus y Tobbzn del CK3 Mod Co-op por ayudarme a descifrar cómo adaptar mis eventos provinciales de CK2 y hacer un sistema de eventos condales para CK3.
+[/LIST]
