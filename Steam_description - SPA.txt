@@ -1,6 +1,6 @@
-[img]https://i.imgur.com/99bfZnH.jpg[/img]
+[img]https://i.imgur.com/vMESYvT.jpg[/img]
 
-[h1]Versión actual: 1.19.0 "Gaia" (Lanzada el 21/4/26, compatible con el parche 1.19.X)[/h1]
+[h1]Versión actual: 1.19.1 "Constantinopla" (Lanzada el 31/5/26, compatible con el parche 1.19.X)[/h1]
 
 [h1][B][url=https://discord.gg/9KuyXv2uZA]Servidor de Discord para mis mods[/url]
 [url=https://cybrxkhansmods.godaddysites.com/]Sitio web oficial de mis mods[/url][/B][/h1]
@@ -25,7 +25,7 @@ Siéntete libre de usar mi trabajo en tus mods; solo pido que se me dé crédito
 [img]http://i.imgur.com/EyXurbK.jpg[/img]
 
 [LIST]
-[*]¡Más de [B][U]1269 eventos de ambientación nuevos[/U][/B] para experimentar!
+[*]¡Más de [B][U]1275 eventos de ambientación nuevos[/U][/B] para experimentar!
 [*]Explora nuevas decisiones, artefactos, interacciones entre personajes, actividades ¡y más!
 [*]Regla de juego para deshabilitar eventos más absurdos para quienes no los disfruten, con tres niveles para elegir: Balanceado (por defecto), Serio (restringido) y Todos los eventos (completo).
 [*][B]Compatible con casi cualquier cosa[/B] ya que no modifica ningún archivo vanilla; incluso con mods totales, puedes desactivar mediante la regla de juego los eventos que hagan referencia a cosas específicas de nuestro mundo medieval que no tendrían sentido en otras épocas o universos (como mods de conversión de fantasía/ciencia ficción).
@@ -53,12 +53,12 @@ Por favor, consulta las [url=https://cybrxkhansmods.godaddysites.com/faq]Pregunt
 
 [img]http://i.imgur.com/RQ5QZTF.jpg[/img]
 
-[h1]Versión 1.19.0 "Gaia"[/h1]
+[h1]Versión 1.19.1 "Constantinopla"[/h1]
 
-[I]“La Tierra es la cuna de la humanidad, pero no se puede vivir en la cuna para siempre.”
-– Konstantin Tsiolkovsky (1857 - 1935), científico espacial ruso y pionero de la astronáutica[/I]
+[I]"Istanbul was Constantinople. Now it's Istanbul, not Constantinople. Been a long time gone, oh Constantinople. Why did Constantinople get the works? That's nobody's business but the Turks!"
+- The Four Lads, "Istanbul (not Constantinople)" (1953)[/I]
 
-Nuevos eventos añadidos en esta versión: [B]5[/B]
+Nuevos eventos añadidos en esta versión: [B]6[/B]
 
 Debido a que el registro de cambios es demasiado grande para enumerarlo aquí, consulta el registro de cambios completo aquí: https://steamcommunity.com/sharedfiles/filedetails/changelog/2227658180
 
