@@ -1,6 +1,6 @@
 # VIET Events for CK3
 
-<img src="https://i.imgur.com/QpHtzXk.jpg">
+<img src="https://i.imgur.com/vMESYvT.jpg">
 
 ## Latest Version: 1.19.1 "Constantinople" (Released 5/30/26)
 
